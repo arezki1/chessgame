@@ -332,6 +332,33 @@ public class ChessProject extends JFrame implements MouseListener, MouseMotionLi
 				}
 			}
 		}
+
+
+                        //get the queen wove
+else if(pieceName.contains("King")){
+
+
+
+if(yMouvement==1||xMouvement==1){
+
+if((pieceName.equals("BlackKing"))){
+validMove = false;
+}
+
+else{
+validMove = true;
+}
+
+}
+
+}
+
+
+
+
+
+
+
 		if(!validMove){
 			int location=0;
 			if(startY ==0){
